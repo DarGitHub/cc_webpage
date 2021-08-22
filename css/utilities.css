@@ -159,4 +159,14 @@
 
 .footer .social > * {
     margin-right: 30px;
+    
+}
+.footer .social a > * {
+    padding-top: 20px;
+    
+}
+
+.footer .social .t-burger {
+    padding: 5px;
+
 }
