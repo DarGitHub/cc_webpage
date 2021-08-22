@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/img-cont-styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Christeen's Crafts</title>
+</head>
+<body id="home">
+    <header class="hero">
+        <div id="navbar" class="navbar">
+            <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-tshirt"></i> TShirts and <i class="fas fa-cut"></i></span> Crafts
+            </h1>
+            
+            <nav>
+                
+                <ul>
+                    <li class="li-img"><img src="images/IMG_0773.jpg"  class="circle
+                        width="75" 
+                        height="75"/></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="tshirts.html">Tshirts</a></li>
+                    <li><a href="handywork.html">Handy</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Christeen's Crafts</h1>
+            <p>Tshirts and More</p>
+            <a href="#about" class="btn"><i class="fas fa-chevron-right"></i>Read More</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Icons -->
+        <section id="about" class="icons bg-light">
+            <div class="flex-items">
+                <div>
+                    <a href="shop.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
+                    
+                    <h3>shopping</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, esse at. Atque eum iusto quibusdam voluptates aliquam nobis hic sequi?</p>
+                </div>    
+                <div>
+                    <a href="handywork.html"><i class="fas fa-hammer fa-2x"></i></a>                   
+                    <h3>handy works</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, esse at. Atque eum iusto quibusdam voluptates aliquam nobis hic sequi?</p>
+                </div>
+                <div>
+                    <a href="tshirts.html"><i class="fas fa-tshirt fa-2x"></i></a>
+                    <h3>t-shirts</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, esse at. Atque eum iusto quibusdam voluptates aliquam nobis hic sequi?</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Solutions -->
+        <section class="solutions flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="/images/Snapchat-1290525596.jpg" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-primary" >
+                       <h4>What your looking for</h4>
+                       <h2>We have it</h2>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus reprehenderit totam, ipsam rerum doloribus numquam itaque dicta similique quidem ipsa? Sapiente perferendis nam, quia doloremque illo repellendus non maiores ad.</p>
+                       <a href="#" class="btn btn-outline">
+                        <i class="fas fa-chevron"></i>
+                        Read More
+                       </a>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact" class="contact flex-columns">
+            <div class="row">
+                <div class="column">
+                    <div class="column-1">
+                        <img src="images/1179f3fd-650f-4fca-8ddf-931c2d60c6da_2930185114477521.png" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-2 bg-light">
+                        <h2>Request Callback</h2>
+                        <form action="mailto:christeenwright@gmail.com"  method="post" enctype="text/plain" class="callback-form">
+                            
+                            <div class="form-control">
+                                <label>Your Name</label>
+                                <input type="text" name="Name" value="" >
+                            </div>
+                            
+                            <div class="form-control">
+                                <label>Your Email  </label>
+                                <input type="email" name="Email" value="" >
+                            </div>
+                            <div class="form-control">
+                                <label>Your Phone</label>
+                                <input type="text" name="Phone" value="" >
+                            </div>
+                            <div class="form-control">
+                                <label>Your Message</label>
+                                <textarea name="Message" id="" cols="30" rows="5"></textarea>
+                            </div>
+                            <div >
+                                <input type="submit" name="" class="submit" >
+                                <input type="reset" class="reset">
+                            </div>
+                            
+                        </form>
+                      
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer bg-dark">
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <p class="p">Created By: Darrell E. M. Smith</p>
+      <p>Copyright &copy; 2021 - Christeen Crafts</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        const navbar = document.getElementById('navbar');
+        let scrolled = false;
+
+        window.onscroll = function() {
+            if(window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+
+                if(!scrolled){
+                    navbar.style.transform = 'translateY(-100)';
+                    setTimeout(function() {
+                        navbar.style.transform = 'translateY(0)';
+                        scrolled = true;
+                    },200);
+                }
+                
+            } else {
+                navbar.classList.add('top');
+                scrolled = false;
+            }
+        };
+    </script>
+    
+    
+</body>
+</html>
