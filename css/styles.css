@@ -157,7 +157,7 @@ img {
         height: 120px;
     }
     .navbar a {
-        padding: 10px 10px;
+        padding: 5px 5px;
         margin: 0 3px;
     }
 
@@ -165,11 +165,16 @@ img {
         flex-direction: column;
     }
 
-    .flex-column .column, .flex-grid .column {
+    .flex-columns .column, .flex-grid .column {
         flex: 100%;
         max-width: 100%;
     }
     .img {
         width: 70%;
+    }
+
+    .footer .p {
+        padding-bottom: 5px;
+        margin: 3px;
     }
 }
