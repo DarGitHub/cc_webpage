@@ -69,6 +69,10 @@ img {
     font-weight: 600;
 }
 
+.navbar .li-img {
+    display: flex;
+}
+
 /* Header */
 .hero {
     background: url('../images/Resized_image8.jpg') no-repeat center center/cover;
@@ -217,8 +221,8 @@ img {
         height: 120px;
     }
     .navbar a {
-        padding: 5px 5px;
-        margin: 0 3px;
+        padding: 3px 3px;
+        margin: 0 2px;
     }
 
     .flex-items {
